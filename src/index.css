@@ -1,0 +1,60 @@
+:root {
+
+  background-color: rgba(122, 122, 122, 0.699);
+}
+.center_dev{
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(119, 118, 177);
+  box-shadow: 5px 5px 5px 5px black;
+ text-align: center;
+}
+.center_dev input{
+  padding: 10px;
+  width: 55%;
+}
+.center_dev h1{
+  font-size: 50px;
+}
+.center_dev button{
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.center_dev button:hover{
+  background-color: rgb(99, 245, 147);
+
+}
+.lists {
+  margin: auto;
+  width: 40%;
+}
+.to_style {
+  gap: 15px;
+  margin-top: 20px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  box-shadow: 10px 10px 10px 0 rgb(160, 160, 160);
+  display:flex;
+}
+.to_style:hover{
+opacity: .9;
+}
+.deletebtn{
+  
+  align-self: center;
+}
+.deletebtn button:hover{
+  background-color: red;
+
+}
+.displedlist p{
+  font-size: 30px;
+}
+.listdiv{
+margin-top: 10px;
+}
